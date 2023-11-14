@@ -1,0 +1,45 @@
+.btn {
+    display: flex;
+    padding: 16px 32px;
+    border-radius: 16px;
+    background: var(--primary-black, #301B0A);
+    color: var(--primary-white, #FDF9EF);
+    border: 2px solid var(--primary-black, #301B0A);
+    align-items: center;
+    gap: 8px;
+    font-family: Albert Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    transition: background-color 0.2s, color 0.2s, border 0.2s;
+}
+
+.btn:hover {
+    background-color: var(--primary-white, #FDF9EF);
+    color: var(--primary-black, #301B0A);
+    border: 2px solid var(--primary-black, #301B0A);
+}
+
+.btn:active:focus {
+    background-color: var(--primary-black, #301B0A);
+    color: var(--primary-white, #FDF9EF);
+    border: 2px solid var(--primary-white, #FDF9EF);
+    outline: 2px double var(--primary-black, #301B0A);
+}
+
+.btn.has-icon {
+    padding-right: 60px; 
+    gap: 12px;
+    background-image: url(../../public/images/icon-profile-circled-default.svg);
+    background-repeat: no-repeat;
+    background-position: right 20px center; 
+}
+
+.btn.has-icon:hover {
+    background-image: url(../../public/images/icon-profile-circled-hover.svg);
+    background-color: var(--primary-white);
+    color: var(--primary-black, #301B0A);
+    border: 2px solid var(--primary-black, #301B0A);
+}
+

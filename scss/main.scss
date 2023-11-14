@@ -1,0 +1,46 @@
+
+// 1. Base
+
+@import 'base/variables', 'base/base', 'base/fonts';
+
+// 2. Sections
+@import 'layout/header';
+
+// 3. Components
+
+@import 'components/list', 'components/button', 'components/hero' ;
+
+
+
+#statistics{
+
+    padding: 100px 0 100px 0;
+
+    .card-statistics{
+        display: inline-flex;
+        padding: 48px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        background: $secondary-beige-200;
+    
+        h1{
+            color: $primary-black;
+            font-family: Albert Sans;
+            font-size: 74px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+        p{
+            color: $primary-black;
+            font-family: Albert Sans;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+        }
+    }
+
+}
+
