@@ -1,0 +1,33 @@
+header{
+    margin: 0;
+    padding: 48px 100px;
+}
+
+.navbar{
+display: flex;
+align-items: center;
+}
+
+.collapse{
+display: flex;
+justify-content: flex-end;
+gap: 24px;
+}
+
+.nav-item{
+    margin-left: 24px;
+}
+
+.btn-sok{
+    background: var(--primary-white, #FDF9EF);
+    border: 0px;
+    color: var(--primary-black, #301B0A);
+}
+
+.btn-logg{
+    border-radius: 16px;
+    border: 2px solid var(--primary-black, #301B0A);
+    color: var(--primary-black, #301B0A);
+    background: var(--primary-white, #FDF9EF);
+
+}

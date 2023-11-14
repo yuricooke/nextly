@@ -1,0 +1,23 @@
+#veiledning {
+    .container{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+    }
+    
+    .row {
+        display: flex;
+        padding: 60px;
+        background: var(--secondary-green-200, #D0E0AF);
+        align-items: flex-start;
+        gap: 60px;
+    }
+
+    .description {
+        display: flex;
+        justify-content: flex-end;
+        gap: 109px;
+
+    }
+
+}

@@ -1,0 +1,27 @@
+#statistics {
+
+  .cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 60px;
+    padding: 0;
+  }
+
+  .card-content {
+    flex:1;
+    flex-direction: column; /* Set column direction for the content within each card */
+    padding: 48px;
+    background: var(--secondary-beige-200, #F6E7C3);
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .card-content h1{
+    color: var(--primary-black, #301B0A);
+    font-family: Albert Sans;
+    font-size: 74px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+}

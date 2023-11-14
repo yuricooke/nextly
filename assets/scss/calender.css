@@ -1,0 +1,47 @@
+#calender {
+    .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 36px;
+        margin-top: 36px;
+    }
+
+    .row{
+        display: flex;
+        align-items: center;
+        gap: -2px;
+        background: var(--secondary-green-200, #D0E0AF);
+    }
+
+    .date{
+        display: flex;
+        padding: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+        align-self: stretch;
+    }
+
+    .info {
+        display: flex;
+        padding: 60px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 24px;
+    }
+
+    .event-description {
+        display: flex;
+        gap: 24px;
+        font-size: 16px;
+    }
+    
+    .btn-secondary{
+        border-radius: 16px;
+        border: 2px solid var(--primary-black, #301B0A);
+        background-color: transparent;
+        color: var(--primary-black, #301B0A);
+    }
+
+}

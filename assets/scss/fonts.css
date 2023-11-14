@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,500;1,500&display=swap");
+
+* {
+    font-family: "Albert Sans", sans-serif;
+  }
+
+h1 {
+    color: #301B0A;
+    font-size: 3rem;
+    line-height: 130%;
+}
+
+h2 {
+    color: #301B0A;
+    font-size: 2.375rem;
+    line-height: 130%;
+}
+
+h3 {
+    color: #301B0A;
+    font-size: 1.75rem;
+    line-height: 130%;
+}
+
+h4 {
+    color: #301B0A;
+    font-size: 1.5rem;
+    line-height: 130%;
+}
+p {
+
+    font-family: Albert Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 160%;
+    /* 32px */
+}
+.sub-heading{
+    width: 298.14px;
+    color: var(--primary-black, #301B0A);
+    font-family: Albert Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 130%;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 599px) {
+    h1 {
+        color: #301B0A;
+        font-size: 1.75rem;
+        line-height: 130%;
+    }
+
+    h2 {
+        color: #301B0A;
+        font-size: 1.5rem;
+        line-height: 130%;
+    }
+
+    h3 {
+        color: #301B0A;
+        font-size: 1.375rem;
+        line-height: 130%;
+    }
+
+    h4 {
+        color: #301B0A;
+        font-size: 1.25rem;
+        line-height: 130%;
+    }
+}
+
+@media screen and (max-width: 1239) {
+    h1 {
+        font-size: 2.25rem;
+        line-height: 130%;
+    }
+
+    h2 {
+        font-size: 1.875rem;
+        line-height: 130%;
+    }
+
+    h3 {
+        font-size: 1.433rem;
+        line-height: 130%;
+    }
+
+    h4 {
+        font-size: 1.375rem;
+        line-height: 130%;
+    }
+}
